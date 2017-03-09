@@ -84,7 +84,7 @@ Param(
     {
         if(-not $aadClientSecret)
         {
-            $aadClientSecret = Read-Host -Prompt "Aad application ($aadAppName) was alerady created, input corresponding aadClientSecret and hit ENTER. It can be retrieved from https://manage.windowsazure.com portal" ;
+            $aadClientSecret = Read-Host -Prompt "Aad application ($aadAppName) was already created, input corresponding aadClientSecret and hit ENTER. It can be retrieved from https://manage.windowsazure.com portal" ;
         }
         if(-not $aadClientSecret)
         {
